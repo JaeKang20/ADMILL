@@ -36,13 +36,25 @@
         padding: 20px;
         width: 50%;
       }
-      .first{
-         padding-left: 500px;
-         border-bottom: solid white 50px;
-       }
+      .before{
+        width: 40px;
+        border: 4px solid #00BFFF;
+        margin-right: 400px;
+        padding: 3px;
+      }
+      .next{
+        width: 40px;
+        border: 4px solid #00BFFF;
+        padding: 3px;
+      }
+      .bottom{
+      border-top: solid white 50px;
+      border-bottom: solid white 50px;
+      }
 
       .remote{
-        width:50%
+        width: 400px;
+        height: 500px;
       }
       </style>
 </head>
@@ -58,18 +70,19 @@
   <h2>기기가 10초정도 송출되고 꺼집니다.</h2>
   <div>
   <strong>TIP</strong> 광고 운영시간은 10:00 ~ 22:00 입니다.
-  <br><u> ※ 이 때 광고 기기가 스스로 인식하는 시간이 운영시간 이외일 경우 화면 꺼짐.</u>
+  <br><u> ※ 광고 기기설정 시간이 운영시간 이외로 잘못 설정되어 있을 경우 화면 꺼짐</u>
 
   <p style="margin-top: 50px">  STEP1. 준비물: 리모컨</p>
     <img class="remote" src="./imges/remotecontrol.png" alt="remotecontrol"><br>
   <p style="margin-top: 20px">  STEP2. 리모컨을 기기 화면에 대고 menu 클릭</p>
-  <p style="margin-top: 20px">  STEP3. 현재 시간,날짜 맞추고 set up버튼 클릭<br>
+  <p style="margin-top: 20px">  STEP3. 현재 시간,날짜 맞추고 리모컨에 set up버튼 클릭<br>
     <img src="./imges/clocktime.png" width="500" height="300" alt="clocktime"><br>
   <p style="margin-top: 50px">  END.</p>
-  <div class="first">
-    <a href="index.html">
-      <u>>>처음으로</u>
-    </a>
+  <span class="before"><a href="moniter.html"><u><<이전으로</u></a></span>
+
+  <span class="next"><a href="index.html"><u>>>처음으로</u></a></span>
+  <div class="bottom">&nbsp</div>
+
   </div>
 
 </div>
